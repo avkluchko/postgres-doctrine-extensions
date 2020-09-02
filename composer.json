@@ -1,6 +1,6 @@
 {
-    "name": "avkluchko/doctrine-postgres-bundle",
-    "description": "Doctrine extensions for work with PostgreSQL database",
+    "name": "avkluchko/postgres-doctrine-extensions",
+    "description": "Doctrine extensions for working with PostgreSQL database",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,11 @@
         }
     ],
     "require": {
-        "php": "^7.1.3"
+        "php": "^7.1.3",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.4 || ^4.1.12 || ^5.0"
     },
     "autoload": {
         "psr-4": {
@@ -21,9 +25,5 @@
         "psr-4": {
             "AVKluchko\\DoctrinePostgresBundle\\Tests\\": "tests/"
         }
-    },
-    "require-dev": {
-        "symfony/test-pack": "^1.0",
-        "symfony/phpunit-bridge": "^4.3"
     }
 }
