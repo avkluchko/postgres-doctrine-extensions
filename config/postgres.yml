@@ -1,0 +1,8 @@
+doctrine:
+    orm:
+        dql:
+            string_functions:
+                cast: AVKluchko\PostgresDoctrineExtensions\DQL\Cast
+                date_part: AVKluchko\PostgresDoctrineExtensions\DQL\DatePart
+                make_date: AVKluchko\PostgresDoctrineExtensions\DQL\MakeDate
+                to_char: AVKluchko\PostgresDoctrineExtensions\DQL\ToChar
