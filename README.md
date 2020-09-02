@@ -1,5 +1,10 @@
 # Postgres Doctrine Extensions
 
+[![Build Status](https://travis-ci.org/avkluchko/postgres-doctrine-extensions.svg)](https://travis-ci.org/avkluchko/postgres-doctrine-extensions)
+[![Total Downloads](https://poser.pugx.org/avkluchko/postgres-doctrine-extensions/downloads)](//packagist.org/packages/avkluchko/postgres-doctrine-extensions)
+[![Latest Stable Version](https://poser.pugx.org/avkluchko/postgres-doctrine-extensions/v)](//packagist.org/packages/avkluchko/postgres-doctrine-extensions)
+[![License](https://poser.pugx.org/avkluchko/postgres-doctrine-extensions/license)](//packagist.org/packages/avkluchko/postgres-doctrine-extensions)
+
 Doctrine extensions for working with PostgreSQL database
 
 ## Requirements
