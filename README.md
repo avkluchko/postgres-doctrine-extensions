@@ -7,7 +7,7 @@ Doctrine extensions for working with PostgreSQL database
 ## Installation
 
 ```console
-composer require avkluchko/doctrine-postgres-bundle
+composer require avkluchko/postgres-doctrine-extensions
 ```
 
 Add the necessary extensions in the doctrine.yaml:
@@ -17,10 +17,10 @@ doctrine:
     orm:
         dql:
             string_functions:
-                cast: AVKluchko\DoctrinePostgresBundle\DQL\Cast
-                date_part: AVKluchko\DoctrinePostgresBundle\DQL\DatePart
-                make_date: AVKluchko\DoctrinePostgresBundle\DQL\MakeDate
-                to_char: AVKluchko\DoctrinePostgresBundle\DQL\ToChar
+                cast: AVKluchko\PostgresDoctrineExtensions\DQL\Cast
+                date_part: AVKluchko\PostgresDoctrineExtensions\DQL\DatePart
+                make_date: AVKluchko\PostgresDoctrineExtensions\DQL\MakeDate
+                to_char: AVKluchko\PostgresDoctrineExtensions\DQL\ToChar
 ```
 
 ## Usage

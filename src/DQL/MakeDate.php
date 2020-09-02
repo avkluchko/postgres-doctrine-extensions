@@ -1,6 +1,6 @@
 <?php
 
-namespace AVKluchko\DoctrinePostgresBundle\DQL;
+namespace AVKluchko\PostgresDoctrineExtensions\DQL;
 
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 use Doctrine\ORM\Query\Lexer;

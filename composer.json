@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AVKluchko\\DoctrinePostgresBundle\\": "src/"
+            "AVKluchko\\PostgresDoctrineExtensions\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AVKluchko\\DoctrinePostgresBundle\\Tests\\": "tests/"
+            "AVKluchko\\PostgresDoctrineExtensions\\Tests\\": "tests/"
         }
     }
 }
